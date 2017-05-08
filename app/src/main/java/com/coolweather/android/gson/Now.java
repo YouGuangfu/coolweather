@@ -10,6 +10,18 @@ public class Now {
     @SerializedName("tmp")
     public String temperature;
 
+    @SerializedName("wind")
+    public Wind wind;
+
+    public class Wind {
+        @SerializedName("dir")
+        public String direction;
+
+        @SerializedName("sc")
+        public String sc;
+
+    }
+
     @SerializedName("cond")
     public More more;
 
@@ -17,4 +29,5 @@ public class Now {
         @SerializedName("txt")
         public String info;
     }
+
 }

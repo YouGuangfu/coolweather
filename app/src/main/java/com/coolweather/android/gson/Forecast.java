@@ -26,4 +26,8 @@ public class Forecast {
         @SerializedName("txt_d")
         public String info;
     }
+
+
+
+
 }
